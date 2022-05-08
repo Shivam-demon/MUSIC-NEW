@@ -33,7 +33,7 @@ async def thumb(thumbnail, title, userid, ctitle):
     font2 = ImageFont.truetype("Process/source/finalfont.ttf", 60)
     draw.text(
         (20, 46),
-        f"{Now Playing[:8]}...",
+        f"Now Playing[:8]...",
         fill="black",
         font=font2,
     )
